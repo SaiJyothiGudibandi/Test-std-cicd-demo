@@ -21,7 +21,7 @@
 - replicaCount: 1
 
 - image:
-    repository: gcr.io/saaspoc-gtso-enterprise-gke/gkegtsoent/feature-hello-world
+    repository: gcr.io/saaspoc-gtso-enterprise-gke/gkegtsoent/hello-world
     tag: 1.0.1
     pullPolicy: IfNotPresent
 
