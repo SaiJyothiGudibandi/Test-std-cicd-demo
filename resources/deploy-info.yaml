@@ -1,0 +1,8 @@
+- name: deploy
+
+- project_name: sandbox-env
+  email: chintan.vyas@broadcom.com
+  entrypoint: helm
+  kubernetes:
+    env:
+      name: gkegtsoent
