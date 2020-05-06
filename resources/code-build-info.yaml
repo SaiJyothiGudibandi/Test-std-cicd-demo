@@ -1,4 +1,27 @@
-- name: code-build
-  source: "."
-  commands:
-    "echo mvn build"
+application-platform:
+  - name : java
+
+code_build_steps:
+  - name: java
+    commands:
+      - "mvn -v"
+      - "mvn clean package"
+      - "java -jar target/spring-boot-web.jar "
+
+  - name: python
+    commands:
+      - "python --version"
+      - ls -l
+      - pwd
+
+  - name: .net
+    commands:
+      - "python --version"
+      - ls -l
+      - pwd
+
+  - name: nodejs
+    commands:
+        - "echo npm install cross-env"
+        - ls -l
+        - pwd

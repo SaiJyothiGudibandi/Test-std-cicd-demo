@@ -1,5 +1,0 @@
-- name: Helm-Command
-  repo: https://artifactory-lvn.broadcom.net/artifactory/docker-release-local/std-cicd-demo-live
-  chart: feature-helm-hello-world:1.0.1.tgz
-  values: ./resources/values.yaml
-  command: upgrade
