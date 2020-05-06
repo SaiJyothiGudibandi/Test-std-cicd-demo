@@ -5,7 +5,6 @@ code_build_steps:
   - name: java
     commands:
       - "mvn -v"
-      - "echo mvn clean package"
       - "mvn clean install"
       - "echo java -jar target/spring-boot-web.jar "
 
