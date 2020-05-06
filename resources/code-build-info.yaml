@@ -6,7 +6,7 @@ code_build_steps:
     commands:
       - "mvn -v"
       - "mvn clean package"
-      - "java -jar target/spring-boot-web.jar "
+      - "echo java -jar target/spring-boot-web.jar "
 
   - name: python
     commands:
