@@ -4,8 +4,9 @@ application-platform:
 code_build_steps:
   - name: java
     commands:
-      - "echo mvn -v"
+      - "mvn -v"
       - "echo mvn clean package"
+      - "mvn clean install"
       - "echo java -jar target/spring-boot-web.jar "
 
   - name: python
